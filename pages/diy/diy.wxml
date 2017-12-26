@@ -1,0 +1,14 @@
+<!--pages/diy/diy.wxml-->
+<view class="page">
+  <view class="page__hd">
+        <view class="page__title">斗图专家</view>
+        <view class="page__desc">从此斗图不再怂，点击图片制作自定义斗图表情</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="row ">
+      <view wx:for="{{modimglist}}" wx:for-index="id" class="item_size page__bd">
+        <image class="img" src="{{modimglist[id]}}" data-url="{{modimglist[id]}}" bindtap = "onItemClick"></image>
+      </view>
+    </view>
+</view>
+</view>

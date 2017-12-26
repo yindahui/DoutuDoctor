@@ -1,0 +1,9 @@
+/* pages/help/help.wxss */
+.img1 {
+    width: 452rpx;
+    height: 580rpx;
+}
+.img2 {
+    width: 452rpx;
+    height: 452rpx;
+}

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page__hd">
+        <view class="page__title"></view>
+  </view>
+  <view class="page__bd">
+    <view class="page__bd_spacing">
+      <button class="weui-btn;{{element_charac[uploadpic_HS]}}" type="primary" bindtap="chooseImage" >点击上传图片</button>
+    </view>
+    <canvas canvas-id='myCanvas' style='width:100%;height:250px' bindtap = "showToast"></canvas>
+    <view class="page__bd_spacing">
+      <form bindsubmit="makepic">  
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <textarea class="weui-textarea" id="txt_addtxt" name="diyname" value="" type="text" placeholder="在这里输入斗语" bindinput="txtinput" style="height: 1.8em" />
+              <view class="weui-textarea-counter">简洁斗语 效果更佳</view>
+            </view>
+          </view>
+        </view>
+        <button class="weui-btn;{{element_charac[txt_HS]}}" type="default" bindtap="setattributes">设置文字颜色字体及位置</button>
+        <button class="weui-btn;{{element_charac[txtcolor_HS]}}" type="default" bindtap="settxtcolor">设置文字颜色</button>
+        <button class="weui-btn;{{element_charac[txtsize_HS]}}" type="default" bindtap="settxtsize">设置文字大小</button>
+        <button class="weui-btn;{{element_charac[txtlocation_HS]}}" type="default" bindtap="settxtlocation">设置文字位置</button>
+        
+        <button id="btn_addtxt" class="weui-btn" type="primary" formType="submit">一键制作</button>
+      </form>
+    </view>
+  </view>
+
+</view>

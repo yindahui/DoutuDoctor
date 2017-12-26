@@ -1,0 +1,36 @@
+<!--pages/help/help.wxml-->
+
+<view class="page">
+  <view class="weui-article">
+
+      <view class="weui-article__h1"></view>
+      <view class="weui-article__h1">【版本历史】</view>
+      <view class="weui-article__h2">[+] 当前版本 v1.2(2017-12-25)</view>
+      <view class="weui-article__p">
+           优化部分代码，并开源至github，仓库地址：https://github.com/yindahui/DoutuDoctor.git
+      </view>
+      <view class="weui-article__h2">[+] 当前版本 v1.1(2017-10-12)</view>
+      <view class="weui-article__p">
+           优化界面，增加文字颜色、位置及大小的处理。
+      </view>
+      <view class="weui-article__h2">[+] v1.0 (2017-10-01)</view>
+      <view class="weui-article__p">
+           上线斗图专家,提供简单的表情加字功能
+      </view>
+
+      <view class="weui-article__h1"></view>
+      <view class="weui-article__h1">【版权申明】</view>
+      <view class="weui-article__p">
+        部分图片搜集整理自互联网，如有侵犯您权利的资源，请发邮件至1369679524@qq.com, 核实后我们将尽快删除
+      </view>
+
+      <view class="weui-article__h1"></view>
+      <view class="weui-article__h1">【联系作者】</view>
+      <view class="weui-article__p">
+        你可以加我微信与我联系：yinhui19940114
+      </view>
+      
+
+  </view>
+
+</view>
